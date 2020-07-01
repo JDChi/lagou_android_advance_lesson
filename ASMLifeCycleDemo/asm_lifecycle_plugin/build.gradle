@@ -5,9 +5,12 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     compile gradleApi()
-    compile localGroovy()
+    implementation localGroovy()
 
-    compile 'com.android.tools.build:gradle:3.6.3'
+    implementation 'com.android.tools.build:gradle:3.6.3'
+
+    implementation 'org.ow2.asm:asm:7.1'
+    implementation 'org.ow2.asm:asm-commons:7.1'
 
 }
 
